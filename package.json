@@ -3,14 +3,6 @@
   "version": "0.1.10",
   "description": "React component to generate QRCode with logo",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "browserify -t [ babelify --presets [ react ] ] example/index.js -o example/bundle.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/cssivision/qrcode-react.git"
-  },
   "keywords": [
     "react",
     "qrcode",
@@ -18,20 +10,21 @@
   ],
   "author": "sivision.chen <cssivision@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssivision/qrcode-react/issues"
-  },
-  "homepage": "https://github.com/cssivision/qrcode-react#readme",
-  "peerDependencies": {
-    "react": "0.12 - 0.14"
-  },
   "dependencies": {
     "qr.js": "0.0.0"
   },
-  "devDependencies": {
-    "babel-preset-react": "^6.1.18",
-    "babelify": "^7.2.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
-  }
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TapasFE/qrcode-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TapasFE/qrcode-react/issues"
+  },
+  "homepage": "https://github.com/TapasFE/qrcode-react#readme"
 }
